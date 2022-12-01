@@ -38,7 +38,7 @@ yarn-error.log*
 node_modules/
 
 # Build directory
-dist/
+build/
 
 #Misc
 .eslintcache
@@ -46,3 +46,7 @@ dist/
 
 # Test results
 results.json
+
+# JS files
+*.js
+!_*.js
